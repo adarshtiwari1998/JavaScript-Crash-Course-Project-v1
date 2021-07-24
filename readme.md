@@ -4,6 +4,5 @@
 
 
 # Tricks and Tips of GIT error on terminal.
-1. if this error come "fatal: not a git repository (or any of the parent directories)"
-Run this command : {git inti} and hit enter"# JavaScript-Crash-Course-Project-v1".
-2. Reverting a github commit message
+if this error come "fatal: not a git repository (or any of the parent directories)"
+Run this command : {git init} and hit enter"# JavaScript-Crash-Course-Project-v1".
