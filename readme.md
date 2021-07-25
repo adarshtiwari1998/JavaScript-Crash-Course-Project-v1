@@ -5,9 +5,10 @@
 
 <h2>Tips and Tricks of GIT error on terminal.</h2>
 
-1.if this error come "fatal: not a git repository (or any of the parent directories)"
+1. if this error come "fatal: not a git repository (or any of the parent directories)"
 >Run this command : {git init} and hit enter"# JavaScript-Crash-Course-Project-v1".
-2. Completely abort the branch rebashing in git by using 
+
+2. Completely abort the branch rebashing in git by using
 > git rebase --abort 
 
 
