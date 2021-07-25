@@ -4,6 +4,7 @@
 #3 🛑 How to Run Javascript. 📅 07/25/2021</br>
 #4 🛑 How to run Javascript using NodeJS. 📅 07/25/2021 </br>
 #5 🛑 Javascript Variables Complete Explanation | let ,const,var | Naming Rule | 📅 07/25/2021 </br>
+#6 JavaScript Standard Message Boxes | Console Object Full Tutorial   📅 07/25/2021 </br>
 
 <h2>Tips and Tricks of GIT error on terminal.</h2>
 
