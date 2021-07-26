@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 7 | Javascript DataTypes Complete Explanation | Primitive | Reference Types |</title>
+</head>
+<body>
+    <div>*****************************Tutorial Start 🔥 ********************************</div></br></br>
+
+    <h1>1. What is DataTypes?</h1>
+   <h3> Data type humko ye batata hai ki hum variables me kis type ka data rakhne wale hai </h3>
+   <h3>Data Types represent ki hum kis type ki value store kar rhe hai apne variables me </h3>
+   <h3> Example of Data Types are: number(1, 2, 3), string(abc), boolean(T/F)</h3> 
+   <!--  Example 1 -->
+     <!-- Water Bottle container hai matlab (variable) and hum is bottle me kya rakne wale
+      hai, Like, 1. Milk, 2. water ye hume (DataType) batata hai
+    -->
+    <h4>(DataTypes) humko batata hai ki "variables" kis type ki "value" store kar ne wala hai like,
+        number, string, boolean etc. </h4>
+    <h5>(variables) basically aik container hai, jo ki apne andar koi value store karega.</h5> 
+    <h2>Javascript is loosely type(dynamic type) programming language.</h2>
+    <p>Humko javascript me variable ka type khud se batane ki jarurat nhi hai</p></br>
+    <p>Example:</p>
+    <script>
+        let a = 50; /* yaha pe javascript khud se hi get karlega ki a kis type ka data type hai,
+        "a" ke andar hum "50" store kia hai too "50" aik number hai too javascript usko (number) data
+        type jaan jayega. Javascript is so much intelligent.
+        */
+        console.log(a);
+         /* Example 2: Wahi humko java, c, me batana padhta tha ki ye kis type ka data type hai jaise,
+         int a = 5;  // yaha "int" (Datatype) hai, "a" (variable), "50" (value) hai.               
+         */
+    </script>
+    <h4>javascript me initerpreter khud se hi jaan jata hai ki ye kis type ka data type hai.</h4>
+    <p>But agar humko datatype jaanana hai kisi variable ka too hum (typeof) operator se check kar sakte hai:</p>
+    <script>
+        //typeof operator
+        let adarsh = 1999;
+        console.log(typeof adarsh);
+    </script>
+     <h1>2. Types of DataTypes</h1>
+     <h4>Primitive Data Types</h4>
+     <ol>
+        <p>Memory Types different types ke hota hai Pehla hai (Stack)</p>
+        Stack
+        <li>number</li>
+        <li>string</li>
+        <li>boolean</li>
+        <li>null</li>
+        <li>undefined</li>
+        <li>symbols (newly introduced) go on mozilla website to learn more</li>
+        <script>
+            /* primitive data types example */
+            /* ########## number Data Types Example ########## */
+            let number = 50;
+            let number = 100.2;    //decimal value
+           /* ########## string Data Types Example ########## */
+           let name = "Adarsh";
+           let name = 'adarsh';
+            /* ########### boolean Data Types Example ######### */
+            let adarsh = true;
+            let adarsh = false;
+             /* ########### null Data Types Example ########## */
+             let adarsh = null;
+             /* hum intiansely kisi variable me null assign kar dete hai, taaki hum baad me
+             check kar paaye ki voo null hai ki nhi hai.
+             hum jaan bhuz ke kisi bhi variable me null value assign kar sakte hai
+             "null means nothing" */
+            /* ########### undefined Data Types Example ########### */
+            let adarsh = undefined; 
+            /* jab hum kisi variable ko nhi defined karte hai too voo undefined ban jaata hai */ 
+        </script>
+     </ol>
+     <h4>Reference Data Types</h4>
+      <ol>
+        <p>Memory Types different types ke hota hai dusra hai (Heap)</p>
+          Heap
+          <li>array</li>
+          <li>object</li>
+          <li>date</li>
+          <li>function</li>
+          <li>set</li>
+          <li>map and many more.</li>
+      </ol>
+    </h3>
+     
+      <h4>Reference Data Types(RDT): Aisee datatype jo allocate hote hai, yaa jo banate hai (Heap) memory mai.
+          (Heap) hamare "RAM" ke memory ka small parts hai.
+          <li>(Heap) data type dynamic hota hai and fixed nhi hota hai, "Not Fixed"</li>
+          <li>jo bhi hum variable baneye gye, agar voo reference type ka hai too voo (Heap) me declare hoga, (Heap) wali memory use karega.</li>
+          <li>Yaha pe hum "object" banate hai, ji ki fixed nhi hoti hai. </li>
+      </h4>
+      <h4>Primitive Data Types(PDT): ye mool deta type hote hai, ji ki declare aur banate hai (Stack) memory mai.
+        <li>(Stack) ka matlab "Fixed" hota hai</li>
+        <li>yaha jo bhi hum variable declare karege voo (Stack) me jayega.</li>
+        <li>ye humko free me mil gya hai programing language se saath use karne ke lia.</li>
+      </h4>
+
+
+    <script src="lecture7.js"></script>
+    <div>*****************************Tutorial End 🚀 ********************************</div>
+</body>
+</html>
