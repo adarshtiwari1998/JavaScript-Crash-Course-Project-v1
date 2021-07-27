@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lecture 8 | Scope and Scope Chain in JS | Reference Comparison | == vs == |</title>
 </head>
+
 <body>
     *****************************Tutorial Start 🔥 ********************************
     <h1>Important Question</h1>
     <h4>Question 1: Difference between "==", "===" operators? </h4>
-     <p>"==" operator values ko compare karta hai. </p>
-     <!--JAVASCRIPT HERE-->
+    <p>"==" operator values ko compare karta hai. </p>
+    <!--JAVASCRIPT HERE-->
     <h4>Question 2: What is NaN property in javascript?</h4>
     <p>(NaN)Not a Number, it indicates a value which is not a legal number.</p>
     <p>typeofNan(); will be return a number.</p>
@@ -21,12 +23,12 @@
     </script>
     <h4>Question 3: Reference comparison</h4>
     <p>Array is reference data type we will discuss this in the previous lecture.</p>
-      <!--JAVSCRIPT HERE--> 
+    <!--JAVSCRIPT HERE-->
     <h4>Question 4: Explain scope and scope chain in javascript.</h4>
-    <p>Scope determines the accessibility of the variables and function 
+    <p>Scope determines the accessibility of the variables and function
         in various parts in single code base.</p>
     <p>Scope determines where the function is can be used or not in the code.</p>
-    <p>Scope hame ye batata hai, suppose hamare paas code hai, too hum scope ki help se 
+    <p>Scope hame ye batata hai, suppose hamare paas code hai, too hum scope ki help se
         pata kar sakte hai ki kis jagah hum function use kar sakte hai aur kis jagah nhi.
     </p>
     <h4>In javascript there are 3 types of scope</h4>
@@ -38,28 +40,29 @@
     <p>jo variable or function hum global namespace me declare karege.</p>
     <li>Global means Maximum accessibility (like public in java), it can be use from anywhere.</li>
     <li>Aik baar global me variable defined kar do aur usko kahi pe bhi use kar lo.</li>
-     <!--JAVASCRIPT CODE HERE-->
-<!-- 2: Function scope -->
-<h5>2: Function Scope</h5>
-<p>Agar hum koi bhi variable banate hai function ke under too hum usko function ke andar hi use 
-    kar sakte hai.
-    Not access outside of the function , only access inside of the function scope.
-</p>
-<p>Function scope means(inside function)</p>
-<p>agar koi variable declare karte hai function me too voo function ke andar hi use hoga. </p>
-  <!--JAVASCRIPT HERE-->
-<!-- 3: Block scope -->
-<h5>3: Block Scope</h5>
-<p>Block scope related hai basically 2 variable se (let, const)</p>
-<p>Agar hum variable declare kar dia let ki help se, if condition me, too hum isko kewal if condition
-ke andar hi isko use kar payege.   
-</p>
-<!--JAVASCRIPT HERE-->
+    <!--JAVASCRIPT CODE HERE-->
+    <!-- 2: Function scope -->
+    <h5>2: Function Scope</h5>
+    <p>Agar hum koi bhi variable banate hai function ke under too hum usko function ke andar hi use
+        kar sakte hai.
+        Not access outside of the function , only access inside of the function scope.
+    </p>
+    <p>Function scope means(inside function)</p>
+    <p>agar koi variable declare karte hai function me too voo function ke andar hi use hoga. </p>
+    <!--JAVASCRIPT HERE-->
+    <!-- 3: Block scope -->
+    <h5>3: Block Scope</h5>
+    <p>Block scope related hai basically 2 variable se (let, const)</p>
+    <p>Agar hum variable declare kar dia let ki help se, if condition me, too hum isko kewal if condition
+        ke andar hi isko use kar payege.
+    </p>
+    <!--JAVASCRIPT HERE-->
 
 
-<!--EXTERNAL JAVASCRIPT CALL HERE-->
-<script src="lecture8.js"></script>
+    <!--EXTERNAL JAVASCRIPT CALL HERE-->
+    <script src="lecture8.js"></script>
 
     *****************************Tutorial End 🚀 ********************************
 </body>
+
 </html>
