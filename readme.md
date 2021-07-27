@@ -10,6 +10,7 @@
 #9 🛑 String in JS | Ways to create string | String interpolation | 📅 07/26/2021 </br>
 #10 🛑 Ten JavaScript Useful and Important String Functions |  📅 07/27/2021 </br>
 #11 🛑 Five Important String operations for beginners |  📅 07/27/2021 </br>
+#12 🛑 Type Conversion in JS | String Conversion | Numeric Conversion | Boolean  📅 07/27/2021 </br>
 
 <h2>Tips and Tricks of GIT error on terminal.</h2>
 
