@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 13| Javascript array</title>
+</head>
+<body>
+    *****************************Tutorial Start 🔥 ********************************
+    <h1>Javascript Array</h1>
+    <h4>1. What is Variable</h4>
+  <p>Varaible ki help se hum data store karte hai and statement and function ki help se humko
+      processing karte hai data pe.
+  </p>
+  <p>But variable me hai kuch like:</p>
+   <script>
+       //variable problem example
+       let a = 5;
+       console.log(a)
+       /* too memory block me a ki place pe 5 value store ho gyi hogi */
+       /* but agar hum fhir se a ki jagah koi aur value store karna chaye too ab 5 ki jagah 6 aajega
+       matlab ki value override ho gyi
+       */
+      /* variable matlab aik baar me aik value */
+       a = 7;
+      console.log(a);  //output 7 
+   </script> 
+   <h3>Agar humko aik hi variables me multiple values rakhna hai, like a variable ke andar hum 
+    10+ values rakh le (10,20,30, 40 ...100) And,
+    <li>a ke andar hum 10 marks rakh le</li>
+    <li>yaa a ke andar hum 10 student ke name rakh le</li>
+   </h3>
+   <h3>Isko hum array ki help se karte hai, hum array ki help se aik hi variable me multiple values
+     ko store kar paate hai.</h3>
+   <script>
+       //array example
+       let b = [5, 6, 7, 8, 9, 10]
+       console.log(b)    /* isko karne se pura ka pura array print ho jayega kyu ki b me 
+       bhut saari values rakhi hai
+       */ 
+   </script>
+    <h4>Array Important Points</h4>
+      <ul>
+          <li>Array ki indexing hoti hai</li>
+          <li>Ab ye sab values elements hai,and ab inki indexing hogi jo ki 0 se start hoti hai 0,1,2,3 and so on.</li>
+          <li>Indexing islia kyu ki isko aik hi variable point kar rha hai.</li>
+       <span>
+        Like this,
+        Index/Position              Values
+           0             ->           5
+           1             ->           6
+           2             ->           7
+           3             ->           8
+           4             ->           9
+           5             ->           10
+       </span>
+      </ul>
+      <script>
+          //array indexing example continue...
+          console.log(b[2]);         //output 7
+          console.log(b[5]);         //output 10
+      </script>
+      <h4>Array Properties</h4>
+      <li>Array **</li>
+      <p>In javascript array data-type is not fixed.</p>
+       <p>Hum aik hi array me mixed type ka data rakh sakte hai like: number, name, floatingpointnumber, object ko bhi
+           store kar sakte hai.
+           Type fixed nhi hai.
+       </p>
+       <script>
+           //array properties example
+           //Example 1
+            let arrName = [45, "adarsh", 49.1000, "shubh"];  /* its is valid array,
+            array me heterogenous element allowed hai, alag alag tarike ke elements aik hi array
+            me allowed hai.  
+           */
+          console.log(arrName);
+          //Example 2
+          /* let suppose humko bus floating points values 49.1000 print karna hai, soo aisee karege */
+          console.log(arrName[2]);
+       </script>
+       <p>But c and java me array ka type fixed hota hai.</p>
+       <p>Size of array is also not fixed.</p>
+       <script>
+           //size of array not fixed properties example 
+           let sizeArr = [1, 20, "adarsh", 59, 23];  //not of elements/size is 5
+           console.log(sizeArr);
+           console.log(typeof sizeArr)
+            /* and agar humko aik aur elements add karna hoga baad me too aisee karege */
+            sizeArr.push("shubh");   //adding 6 elements "shubh" string type.   
+            console.log(sizeArr);   //output 6 elements added in last
+            /* hum run time me elements add kar sakte hai too size apne aap change ho sakta hai automatically. */
+            /* and type bhi fixed nhi hai javascipt array ka */
+       </script>
+    <h4>Array have also different functions and method</h4>
+    <p>ye sab function array ke object se milte hai. Given Below:</p>
+    <li>concat</li>
+    <li>constructor</li>
+    <li>FindIndex</li>
+    <li>Filter</li>
+    <li>indexOf</li>
+    <li>FloatMap</li>
+    <li>forEach</li>
+    <li>join</li>
+    <li>reduce</li>
+    <li>splice</li>
+    <li>and many more....</li>
+       <script src="lecture13.js"></script>
+
+    *****************************Tutorial End 🚀 ********************************
+</body>
+</html>
