@@ -14,6 +14,7 @@
 > #11 🛑 Five Important String operations for beginners |  📅 07/27/2021
 > #12 🛑 Type Conversion in JS | String Conversion | Numeric Conversion | Boolean  📅 07/27/2021 to 07/28/2021
 > #13 🛑 Javascript array |  📅 07/28/2021.
+> #14 🛑 Very useful array operations🔥 | Important functions covered |  📅 07/28/2021.
 
 ## Tips and Tricks of GIT error on terminal
 
