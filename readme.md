@@ -28,7 +28,9 @@
 
 > #13 🛑 Javascript array |  📅 07/28/2021.
 
-> #14 🛑 Very useful array operations🔥 | Important functions covered |  📅 07/28/2021.
+> #14 🛑 Very useful array operations | Important functions covered |  📅 07/28/2021.
+
+> #15 🛑 Functions/Arrow Functions in javascipt  📅 07/28/2021.
 
 ## Tips and Tricks of GIT error on terminal
 
