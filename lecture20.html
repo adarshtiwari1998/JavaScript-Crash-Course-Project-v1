@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 20 | JavaScript Objects | JavaScript Object Operations | </title>
+</head>
+
+<body>
+    *****************************Tutorial Start 🔥 ********************************
+
+    <h1>JavaScript Objects 🔥 | JavaScript Object Operations | </h1>
+    <h4>What is an object</h4>
+    <p>javscript is an object based programming language.</p>
+    <li>javaScipt me mostly everthing is an object or act like an object. </li>
+    <li>maximum sab kuch object milega javascript me and kuch cheeze samething like object milegi.</li>
+    <li>agar javascript me work karna hai effeciently too object ki bhut achi samaz honi chahiye, tab hi hum object 
+        create kar paayege and maharath haasil kar payege. </li>
+    <li>object is very very imporant topic.</li>
+
+<p>A javScript object is just a collection of key value pairs.</p>
+<p>syntax of javascript object--->{key: value}
+
+                                  {key:value, key:value} </p>
+<li>Dono elements ko separate karne ke liye hum , comma use karte hai.</li>
+<li>Uppar wale object me 2 elements hai: 1. key : value pair(first element), 2. key:value pair(2nd element) </li>
+<h4>How we create object?</h4>
+<p>ye object similar like arrays hote hai like,
+</p>
+<li>Arrays me bhi hum collection karte hai, elements ka and object me bhi collection karte hai elements ka, but difference 
+ye hai ki, object me key:value pair ka collection hai and array me simple elements ka collection hai. But array me jo key hoti hai voo index hote hai.    
+</li>
+<p>Object ko create karne se pehle ye samazna hoga ki object ke andar jo hum key:value pair likege usko hum {properties} kehte hai.</p>
+<p>Example: student aik object hai, and student ke andar bhut saari properties hai like, name, phone, address, emailid, college and many more..</p>
+<li>and agar iska object hum programming language me create kare too hum isko {} curly braces se create karege.</li>
+<script>
+    //student object create
+    //these elements are separated by (,) comma and key values are separated by (:)
+    //key: value pair object
+   let student = {
+    Name: "Adarsh",  
+    phone: "7848264826",
+    address: "delhi"
+  }
+  console.log(student);
+</script>
+<h4>Object can also have function inside</h4>
+<p>hum object ke andar, values rakh sakte hai, values rakh sakte hai and
+     hum object ke andar functions ko bhi store kar sakte hai.</p>
+<script>
+    //store function in an onject example
+    const studentDetails = {
+       name: "Akshat",
+       phone: 123242524,
+       address: "noida",
+       //maine display name ka properties liya and usme function defined kar diya
+       display: function() {
+           console.log(this.name);
+           /* (this) yaha pe current object hai and (.) matlab iss object ka jo name hai uski value aajayegi*/
+       }
+       
+    }
+    studentDetails.name;
+    studentDetails[name];
+    //accessing the properties 
+
+</script>
+<p>object me values ke saath saath hum functions ko bhi store kar sakte hai and hum function ke andar (this) matlab hum current object use kar sakte hai. </p>
+<p> hum object mein pair:values ke saath saath, function bhi rakh sakte hai and uss function ke andar code and logic hi rakh
+    sakte hai.</p>
+<p>loop through karne ke liye hum use karege for..in loop</p>
+<p>hum object ki values ko change bhi kar sakte hai baad me</p>
+<p>suppose humko kuch properties add karna hai future mai too hum dynamically add kar sakte</p>
+<p>suppose humko kuch properties delete karna hai future mai too hum dynamically delete kar sakte</p>
+
+
+<script src="lecture20.js"></script>
+    ***************************** Tutorial End 🚀 ********************************
+
+</body>
+
+</html>
