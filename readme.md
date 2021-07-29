@@ -34,6 +34,8 @@
 
 > #16 🛑 What is truthy and Falsy value | If statements in Javascript |  📅 07/29/2021.
 
+> #17 🛑 Loops in JS | For-loop in javascript |  📅 07/29/2021.
+
 ## Tips and Tricks of GIT error on terminal
 
 1. if this error come "fatal: not a git repository (or any of the parent directories)"
