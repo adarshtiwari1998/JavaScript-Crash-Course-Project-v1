@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 16 | What is truthy and Falsy value | If statements in Javascript |</title>
+</head>
+<body>
+    *****************************Tutorial Start 🔥 ********************************
+    <h1>What is truthy and Falsy value | If statements in Javascript</h1>
+     <h4>What is If Statement?</h4>
+     <p>kisi condition pe kaam karna hai too, voo hum implement karte hai if statement ki help se.</p>
+     <script>
+         //if simple structure
+         if(condition/expression) //truthy(true)
+          {//if body open
+            
+            
+             //true block
+
+
+         }//if body close
+         </script>
+     <script>
+         //if with else simple structure
+         if (condition/expression) //isko hum truthy(true) value kehte hais
+         {//if body open
+         
+             /* ye tab hi chalega pura block, jab ye condition true hoga, isko hum "true block" bhi kehte hai */
+
+         }//if  body close
+         else 
+         {
+             //false block tab hi chalega  jab condition false hoga
+         }
+         //ye switch ke  tarah work karta hai ON -> True, OFF -> false
+     </script>
+     <script>
+         //if with else example
+         let a = 56;
+         let b = 56;
+         /*  humko dekhna hai ki ye dono value equal hai ki nhi, uske liye hum if statement ka use karege,
+          conditional statement ka use karege  */
+         if (a == b) {
+             console.log("Both a and b values are Equal");
+         }//otherwise
+         else  {
+             console.log("Both a and b values are Not Equal")
+         }
+     </script>
+     <h4>Ladder if statement</h4>
+     <p>Isko hum tab use karte hai jab hamare pass multiple condition hota hai</p>
+      <script>
+          //ladder if else statement
+          if(condition/expression) 
+          {
+                /* ye block tab chalega  jab ye wali condition true hogi */
+              //true block
+          }
+          else if(condition2/expression2) //1 ladder else if
+          {
+
+             /* ye block tab chalega  jab ye wali condition true hogi */
+            //condition 2 
+          }
+          else if (condition3/expression2)  //2 ladder else if
+          {
+           
+            /* ye block tab chalega  jab ye wali condition true hogi */
+            //consition 3 
+             
+          }
+          else 
+          {
+            /* false block tab chalega, jab koi condition true nhi hoga */
+             //false  block 
+          }
+
+          /* ladder hierarchy , uppar se niche check karte jaata hai jo true mil jaaye usko chale deta hai */
+          /* and false  block tab chalega jab koi bhi uppar ka condition true nhi hoga*/
+
+      </script>
+      <h4>Nested if Statement</h4>
+      <p>Hum isme (if) ke andar (multiple if) ka use karte hai</p>
+      <script>
+          //nested if example
+          if(condition1/expression1)
+           {
+             // Executes when condition1 is true
+               if(condition2/expression2)  //nested if 
+               {
+               // Executes when condition2 is true
+               //nested if true block
+               if(condition3/expression3)  //nested if 
+                {
+                // Executes when condition3 is true
+                //nested if true block
+                }
+            }
+           } 
+           else {
+               //false block
+           }
+      </script>
+       <script>
+           //nested if example 
+           if(3>5) {
+               console.log("3 is greater")
+               if(3>2) {
+                console.log("3 is greater")
+               }
+           }
+           else {
+               console.log("All condition are false")
+           }
+       </script>
+       <h4>What is Truthy value in javascript</h4>
+       <p>Agar mere pass koi positive value hai like</p>
+       <p>+ve --> truthy value
+          +32- --> true 
+          1  --> true
+          1000 --> true
+       </p>
+       <p>koi mere pass -ve  value hai but voo bhi truthy value hai too isko bhi hum true consider karege javascript me like
+         -32 --> true
+         -56 --> true
+         -46 --> true
+        </p>
+        <p>lekin agar mere paas 0 hai jo ye false consider hota hai,like
+           0 --> false
+          -0 --> false
+        </p>
+        <p>Agar mere paas boolean value true hai too isko true consider kiya jayega, and boolean false hai too false cosider kiya jayega, like
+          true --> true
+          false --> false
+        </p>
+        <p>Agar string me koi word more than 1 character hai too usko true consider kiya jaata hai, like 
+            "Adarsh"  --> true 
+        </p>
+        <p>lekin agar "" blank string hai jisme koi character nhi hai too usko false consider kiya jaata hai, like
+            "" --> falsy value
+        </p>
+        <p>agar koi object aa  jaata hai usko bhi hum  falsy consider karte kiya jaata hai, Like
+            NaN --> falsy value
+            undefined --> falsy value
+            null --> falsy value
+        </p>
+        <span>falsy value ko false consider kiya jayega, truthy value ko true consider kiya jayega if condition me.</span>
+
+     <script src="lecture16.js"></script>
+    ***************************** Tutorial End 🚀 ********************************
+</body>
+</html>
