@@ -30,7 +30,9 @@
 
 > #14 🛑 Very useful array operations | Important functions covered |  📅 07/28/2021.
 
-> #15 🛑 Functions/Arrow Functions in javascipt  📅 07/28/2021.
+> #15 🛑 Functions/Arrow Functions in javascipt |  📅 07/28/2021.
+
+> #16 🛑 What is truthy and Falsy value | If statements in Javascript |  📅 07/29/2021.
 
 ## Tips and Tricks of GIT error on terminal
 
