@@ -40,7 +40,9 @@
 
 > #19 🛑 For..In Loop | For..of loop in Javascript |  📅 07/29/2021.
 
-> #20 🛑 JavaScript Objects | JavaScript Object Operations |   📅 07/29/2021.
+> #20 🛑 JavaScript Objects | JavaScript Object Operations |   📅 07/29/2021 and 07/30/2021 till 00:30 AM.
+
+> #21 🛑 All About DOM Manipulation in javascript |  📅 07/30/2021.
 
 
 ## Tips and Tricks of GIT error on terminal
