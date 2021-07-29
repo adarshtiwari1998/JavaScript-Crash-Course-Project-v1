@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 19 | For..In Loop | For..of loop in Javascript |</title>
+</head>
+<body>
+    *****************************Tutorial Start 🔥 ********************************
+
+     <h1>For..In Loop | For..of loop in Javascript</h1> 
+       <h3>What is for..in loop?</h3>
+       <p>The for..in loop is a special type of loop that iterates over the properties of an object, 
+           or the elements of an array.
+       </p>
+       <p>for..in loop ka use kiya jaata hai object ke property ko iterate karne ke liye.</p>
+       <p>
+        Example:   Aik student hai, aur student aik object hai, and student object ke paas bhut saari properties hoti hai,
+        like: name: Adarsh
+              phone: 722847824782
+              addreess: delhi
+            isme student ka paas 3 property hai, name, phone, address
+         And humko ab iss object ko kisi variable me dalna hai like: 
+
+         const StudentData = {
+            name: Adarsh
+            phone: 722847824782
+            addreess: delhi
+         }
+
+         and agar humko agar isme se aik aik cheez print karni hai too hum kaise karge, hum isko for..in loop se kar sakte hai.
+       </p>
+       <p>for..in loop humko help karta hai aik aik karke properties ko nikalne me</p>
+       <script>
+           //for..in loop syntax
+           for(variable in object) {
+               //code to be executed
+               /* isme kya hoga jo object hum paas karege iss variable me usko key aajayegi.
+               key basically student ka name, phone, address hai
+               */
+              /* jab mere paas name aajayga too hum usko value nikaal sakte hai .operator use karke or array operator use karke */
+
+           }
+       </script>
+       <h4>What is object?</h4>
+       <p>Object is key value pair of collection. 1key 1value, 2key 2value and so on... </p>
+       <h4>Why for..in loop use</h4>
+       <p>for..in loop basically object and array ko retreive karne ke liye use hota hai.</p>
+       <h3>What is for..of loop</h3>
+       <p>ES6 introduces a new for..of loop which allows us to iterate over arrays or other iterable objects(eg.strings) very easily.</p>
+       <p>for..of loop aik aik karke values ko nikaal sakta hai ,strings and array ka.</p>
+       <script>
+           //syntax of for..in loop 
+           for(vaiable of iterableObject) {
+               //code to be executed
+               /* jaha in likhna tha for..in loop me uske place pe of use karege for..of loop me */
+               /* and jitne bhi iterableobject hoge yaha pe paas kar dege like, strings, array, but hum object pass,
+               nhi kar sakte yaha pe jaise for..in loop me studentData pass kiya tha object me.
+               hum key values pair ko use nhi kar sakte
+               */
+           }
+       </script>
+
+       <h5>object is not iterable.</h5>
+       <p>for..of loop, object ko traverse nhi kar sakta</p>
+       <p>for..in loop, object ko traverse kar sakta hai, jiske paas key value pair hai.</p>
+
+     <script src="lecture19.js"></script>
+     ***************************** Tutorial End 🚀 ********************************
+</body>
+</html>
