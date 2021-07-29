@@ -36,6 +36,8 @@
 
 > #17 🛑 Loops in JS | For-loop in javascript |  📅 07/29/2021.
 
+> #18 🛑 While Loops | Do While Loops in javasript |  📅 07/29/2021.
+
 ## Tips and Tricks of GIT error on terminal
 
 1. if this error come "fatal: not a git repository (or any of the parent directories)"
