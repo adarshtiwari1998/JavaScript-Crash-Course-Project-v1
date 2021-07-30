@@ -44,6 +44,8 @@
 
 > #21 🛑 All About DOM Manipulation in javascript |  📅 07/30/2021.
 
+> #22 🛑 Javascript DOM Selectors | DOM Selectors in detail |  📅 07/30/2021.
+
 
 ## Tips and Tricks of GIT error on terminal
 
