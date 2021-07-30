@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 22 | Javascript DOM Selectors | DOM Selectors in detail</title>
+</head>
+
+<body>
+    *****************************Tutorial Start 🔥 ********************************
+    <h1>Dom Selector in JavaScript</h1>
+    <h2 id="banrid">Hello World</h2>
+    <h3 class="headingClass">This is javScript</h3>
+    <h3 class="headingClass">This is javScript</h3>
+    <h3 class="headingClass">This is javScript</h3>
+    <!-- get element by tag name-->
+
+    <p>Example 1: Some Text</p>
+    <p>Example 2: Some Text</p>
+    <button onclick="getTagNameParams();">Show all p elements in the document</button>
+
+    <!-- get element by query selector-->
+    <h4 class="reactHeading">This is React</h4>
+    <h4 class="reactHeading">This is React</h4>
+    <h4 class="reactHeading">This is React</h4>
+
+
+    <li>selecting element by using id with getElementById() function</li>
+    <li>particular element selectors like h1, p , span, ul li, and many more by using id </li>
+    <li>agar kisi bhi elements ko select karna hai using ID too use karege getElementById() function</li>
+    <li>getElementById() --> return karega single object, kyu ki id kisi bhi page ki unique hoti hai, aur single element
+        return
+        karna hai aik hi isliye hum Element use karege not Elements </li>
+    <li>jab bhi humko kisi element ko select karna hai by id too hum use karege getElementById() not getElementsById()
+    </li>
+    <li>agar aik variable bhut saare elements hogye too voo aik array ban jaati hai </li>
+    <li>and array ko traverse karne ke liye hum for..of loop use kar sakte hai</li>
+    <li> hum css selectors bhi use kar sakte hai elements ko select karne ke liye</li>
+    <li>There are 2 function we use to do this: 1. querySelector() -->ye single element return karega, pehla element
+        return kar dega
+        2. querySelectorAll() --> ye list of element return karega, jitne bhi element match karge
+        selectors se usko return kar dega</li>
+    <li>css selector use karne ke liye . lagana padhta hai</li>
+    <li>querySelector()--> bus 1 element return karega </li>
+    <li>querySelectorAll()-->ye list of element ke object ko return karega nodelist me and fhir hum loop laga sakte hai
+    </li>
+
+    <script src="lecture22.js"></script>
+    ***************************** Tutorial End 🚀 ********************************
+</body>
+
+</html>
