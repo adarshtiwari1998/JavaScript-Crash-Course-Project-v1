@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 21 | Dom Manipulation in javascript | </title>
+</head>
+<body>
+    *****************************Tutorial Start 🔥 ********************************
+      <h1>Dom Manipulation in JavaScript</h1>
+       <h4>What is DOM</h4>
+       <p>DOM(document object Moddel) it is platform and language independent model to represent the html or xml documents.</p>
+       <p>DOM ki help se hum (html and xml document) ko represent kar sakte hai.</p>
+       <h4>What is the Work of DOM?</h4>
+       <p>it defines the logical structure of the documents and the way in which they can be
+            accessed and manipulated by an application program.</p>
+       <li>Example are: DOM humko tree like structure hamare document ko provide kar dega, jisase hum apne elements ko easily
+       access and manipulate kar paaye inside our program.       
+      </li>
+      <h5>In the DOM, all parts of the document, such as elements, attributes, text etc are organized
+           in the hierarchical tree-like structure. </h5>
+      <li>Like Parent Node, child Node, siblings.</li>
+      <h5>In DOM terminology these individual parts of the document ar known as "nodes".</h5>
+       <li>Hamara pura html page bhut saare nodes se milke bana hua hai.</li>
+       <script src="lecture21.js"></script>
+
+       <p>
+                                      __________
+                                     | Document |    -->root node (kisi bhi page ka root node document hota hai, and iske help se hum page kepure elements ko access kar sakte hai.)
+                                     |__________|   
+                                          |
+                                          |
+                                          |
+                                      __________
+                                      | <html> |
+                                      |________|
+                                          |
+                                          |
+        _________________________________________________________________ 
+        |                                                                |
+        |                                                                |
+     ________                                                        _________
+    | <head> |    --> html ka child hai ye                          |  <body> |    --> html ka child hai ye
+    |________|                                                      |_________|  
+                                                                                      
+        |      --> ye sab hamare nodes hai, basically DOM object hai      |
+        |                                                                 |
+        |                                             _________________________________________                 
+                                                     |                                         |  
+     ________                                     ________                                  ________
+    | <title>|                                   |  <h1>  |  --> body ka h1 child hai ye   |  <ul>  |    --> body ka ul child hai ye
+    |________|                                   |________|                                |________|
+        |                                             |                                         |
+        |                                             |                                         |
+     mypage                                        Mobile OS                      ______________________________
+                                                                                 |                              |
+                                                                                 |                              |
+                                                                              ________                       ________
+                                                                             | <li>   |                     |  <li>  |        
+                                                                             |________|                     |________|                                
+                                                                                 |                              |
+                                                                                 |                              |
+                                                                              android                          ios
+
+
+
+                                                                            
+</p>
+
+<p> har aik elements ka aik object hoga, and jab object aa jayega, tab hum usme manipulation kar sakte hai. 
+</p>
+<p>Body ko represent kar sakte hai as a object, like
+
+    Body--> represent as object
+    and Body ka jab object aajayega too body object ke paas kuch "properties" hogi and kuch "methods" hogye inpe work karne ke liye, jaise object me hota hai.
+</p>
+<li>
+    Body ka object nikalne ke baad ab hum javascript me body ke object ko get kar sakte hai, and inn body ke object pe
+    data ko manupulate kar sakte hai,
+</li>
+    <li>
+        yaa fhir hum iss object ki method and properties ko use kar sakte hai, body ke elements ko change karne ke liye, 
+    </li>
+    <li>
+        body ke content ko change kar sakte hai, body ke individual code ko change kar sakte hai,
+    </li>
+    <li>yaa fhir hum kisi part ko delete bhi kar sakte hai. </li>
+    <li>yaa fhir humko kisi part ko add karna hai too "add or append" bhi kar sakte hai</li>
+    <li>aisee hum n number ab cheejo ko dynamically kar sakte hai, run time pe without refereshing the page.</li>
+    <li>ye sab possible hota hai hamare "body object" ke help se</li>
+    <li>Hum apne html ko as a reprsent kar paa rhe hai as a object, DOM hamare html document ko, html code ko, yaa html part ko as a object.</li>
+    <li>Jab hum html page likhte hai too ye aik logical tree like structure ban jaata hai, aur fhir hum yaha se "object ko fetch" kar sakte hai,
+        direct document object ko use kar sakte hai iske andar se, head, body nikaal sakte hai, yaa fhir particular elements ko bhi target kar sakte hai.
+    </li>
+    <li>Selectors ko help se hum uss elements ko pakar sakte hai.</li>
+
+     ***************************** Tutorial End 🚀 ********************************
+</body>
+</html>
