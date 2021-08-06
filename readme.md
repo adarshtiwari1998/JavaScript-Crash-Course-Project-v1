@@ -52,6 +52,8 @@
 
 > #25 🛑 JavaScript Project 1 : Bulb Project | 📅 08/06/2021.  
 
+> #26 🛑 JavaScript DOM Manipulation  | 📅 08/06/2021.  
+
 
 
 ## Tips and Tricks of GIT error on terminal
