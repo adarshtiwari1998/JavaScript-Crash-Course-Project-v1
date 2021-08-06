@@ -52,7 +52,8 @@
 
 > #25 🛑 JavaScript Project 1 : Bulb Project | 📅 08/06/2021.  
 
-> #26 🛑 JavaScript DOM Manipulation  | 📅 08/06/2021.  
+> #26 🛑 JavaScript DOM Manipulation  | 📅 08/06/2021 to 08/7/2021 till 02:14 AM.  
+
 
 
 
