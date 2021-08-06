@@ -48,6 +48,10 @@
 
 > #23 🛑 DOM Styling in javascript |  📅 07/30/2021.    
 
+> #24 🛑 JavaScript DOM Set and GET attributes |📅 08/06/2021.    
+
+
+
 
 ## Tips and Tricks of GIT error on terminal
 
