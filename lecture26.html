@@ -19,6 +19,44 @@
     </div>
     <button onclick="addNode()">Click Here To Add New Node Dynamically</button>
 
+    
+    __________
+    | Document |          --> root node (kisi bhi page ka root node document hota hai, and iske help se hum page ke pure 
+                              elements ko access kar sakte hai.)
+    |__________|   
+         |
+         |
+         |
+     __________
+     | <html> |   -->parent
+     |________|
+         |
+         |
+_________________________________________________________________ 
+|                                                                |
+|                                                                |
+________                                                        _________
+| <head> |    --> html ka child hai ye                          |  <body> |    --> html ka child hai ye
+|________|                                                      |_________|  
+                                                     
+|      --> ye sab hamare nodes hai, basically DOM object hai      |
+|                                                                 |
+|                                               _________________________________________                 
+|                                              |                                         |
+________                                     ________                                  ________
+| <title>|                                   |  <div> |  --> body ka div child hai ye  |  <ul>  |    --> body ka ul child hai ye
+|________|                                   |________|                                |________|
+                                                |  div id="main"                   
+                                                |                                         
+                               ______________________________
+                              |                             |
+                              |  id="title"                 |  id="para"
+                            ________                    ________
+                            | <h1>   |                  |  <p>   |
+                            |________|                  |________|           
+                                     
+                                
+
         <h4>Kisi bhi elements ko dynamically </h4>
         <li>Add karna</li>
         <li>Remove Karna</li>
