@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 24 | JavaScript DOM Set and GET attributes</title>
+</head>
+<body>
+    *****************************Tutorial Start 🔥 ********************************
+    <h1>Javascript DOM Set and Get Attributes</h1>
+    <div>
+        <a href="http://linkedin.com">Linkedin</a>
+     <p>  Yaha <a> jo hai voo aik tag hai html me ,
+        href , jo hai voo aik attribute hai html me,
+        "https://www.linkedin.com" , "" double quotes ke andar voo aik value hai  
+      </p>
+        <img src="abc.png" alt="">
+        <p> Yaha <img> jo hai voo aik tag hai html me ,
+            src , jo hai voo aik attribute hai html me,
+            "abc.png" , "" double quotes ke andar voo aik value hai
+            alt, jo hai voo aik attibutes hai html me,
+            "", double quotes ke andar voo aik value hai  
+      </p>
+        <h2 id="heading">javaScript Tutorial</h2>
+          <p> Yaha <h2> jo hai voo aik tag hai html me ,
+            id , jo hai voo aik attribute hai html me,
+            "heading" , "" double quotes ke andar voo aik value hai
+         </p>
+           <p>Inline style jo hai voo bhi aik attributes hai html me</p>
+        <h3>How to get Attributes</h3>
+        <p>Value=getAttribute(attribute)</p>
+        <li>Yaha attribute muzea parameter me dena hai and value humko return me milegi.</li>
+        <h3>How to set the Attributes</h3>
+        <p>setAttribute("attr", "value")</p>
+        <li>yaha pe attribute batana hai and value set karna hai comma , laga ke.</li>
+    </div>
+
+    <div>
+        <a id="siteUrl" class="link-alert alert-primary" href="http://linkedin.com">Linkedin</a>
+        <a id="site1Url" href="http://yahoo.com">Yahoo</a>
+        <button onclick="getAttr()">Get</button>
+        <button onclick="setAttr()">Set</button>
+        <button onclick="remAttr()">Remove</button>
+    </div>
+
+    <script src="lecture24.js"></script>
+    ***************************** Tutorial End 🚀 ********************************
+</body>
+</html>

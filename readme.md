@@ -52,7 +52,6 @@
 
 
 
-
 ## Tips and Tricks of GIT error on terminal
 
 1. if this error come "fatal: not a git repository (or any of the parent directories)"
