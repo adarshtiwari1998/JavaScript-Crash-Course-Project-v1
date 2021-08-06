@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 25 | JavaScript Project 1 : Bulb Project</title>
+    <style>
+        .bulb-control-container {
+            margin: 0 auto;
+            padding: 10px;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid gray
+        }
+        
+        .bulb-control-container img {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0 auto;
+            cursor: pointer;
+            display: inherit
+        }
+
+        .bulb-control-container button {
+            background-color: #e3edfe;
+            align-items: center;
+            justify-content:space-evenly;
+            text-align: center;
+            border-radius: 10px;
+            margin: 5px auto;
+            /* display: flex; */
+            padding: 10px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    *****************************Tutorial Start 🔥 ********************************
+   <div class="bulb-control-container">
+    <h1>JavaScript Project 1 : Bulb Project</h1>
+    <img id="bulbControl" onclick="turnOnOffFun()" src="./assets/images/off_bulb.jpg" alt="off_bulb">
+    <button onclick="turnOnFun()">Turn On</button>
+    <button onclick="turnOffFun()">Turn Off</button>
+    <button id="onOffButon" onclick="turnOnOffFun()">On</button>
+   </div>
+    
+</br>
+   <script src="lecture25.js"></script>
+    ***************************** Tutorial End 🚀 ********************************
+</body>
+</html>
