@@ -54,6 +54,8 @@
 
 > #26 🛑 JavaScript DOM Manipulation  | 📅 08/06/2021 to 08/7/2021 till 02:14 AM.  
 
+> #27 🛑 JavaScript DOM Navigation | Navigating to Parent to Child and other nodes 📅 08/7/2021. 
+
 
 
 
