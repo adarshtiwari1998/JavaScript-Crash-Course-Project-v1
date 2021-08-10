@@ -58,9 +58,7 @@
 
 > #28 🛑 JavaScript Timers complete explanation | setTimeout() | setInterval() |  📅 08/10/2021 10:34.
 
-> #29 🛑 JavaScript Project 2, Part(1) | Digital Clock using Javascript |  📅 08/10/2021 12:47.
-
-> #30 🛑 JavaScript Project 2, Part(2) | Digital Clock using Javascript |  📅 08/10/2021 14:47.
+> #29 🛑 JavaScript Project 2, Part(1) and Part(2) | Digital Clock using Javascript |  📅 08/10/2021.
 
 > #31 🛑 Javascript Project 3, Part(1) | Resume Generator using Javascript |  📅 08/10/2021 15:23.
 
