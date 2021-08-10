@@ -60,23 +60,25 @@
           <textarea id="objectiveField" rows="5" placeholder="Your Objective" class="form-control workExpField"></textarea>
         </div>
         <!--work experience-->
-        <div class="form-group mt-2"><label for="workExpField">Work Experience</label>
+        <div class="form-group mt-2" id="workExperienceEle">
+          <label for="workExpField">Work Experience</label>
           <textarea placeholder="Your Work Experience" rows="3" class="form-control workExpField"></textarea>
            <!--new text area coming here dynamically using javascript--> 
           <!---->
           <!---->
           <div id="workExpAddBtn" class="container mt-3 align-center justify-center text-center">
-            <button class="btn btn-primary btn-sm">Add</button>
+            <button onclick="addNewWorkExpFieFun()" class="btn btn-primary btn-sm">Add</button>
           </div>
         </div>
       <!--academic qualifications-->
-      <div class="form-group mt-2"><label for="workExpField">Academic Qualifications</label>
+      <div class="form-group mt-2" id="acadmQualificEle">
+        <label for="workExpField">Academic Qualifications</label>
         <textarea placeholder="Your Academic Qualifications" rows="3" class="form-control acadeQualiField"></textarea>
           <!--new text area coming here dynamically using javascript--> 
           <!---->
           <!---->
         <div id="acadeQualiAddBtn" class="container mt-3 align-center justify-center text-center">
-          <button class="btn btn-primary btn-sm">Add</button>
+          <button onclick="addNewAcaQuaFieFun()"  class="btn btn-primary btn-sm">Add</button>
         </div>
       </div>
 
