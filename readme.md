@@ -66,6 +66,8 @@
 
 > #30 🛑 Javascript Project 3, Part(3) | Resume Generator using Javascript | Updating Image in Resume Generator Project Dynamically |  📅 08/10/2021 23:25.
 
+> #31 🛑 Window Object | Location and History Objects |  📅 08/11/2021 00:20.
+
 
 
 ## Tips and Tricks of GIT error on terminal
