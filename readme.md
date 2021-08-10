@@ -56,7 +56,7 @@
 
 > #27 🛑 JavaScript DOM Navigation | Navigating to Parent to Child and other nodes 📅 08/09/2021. 
 
-> #28 🛑 JavaScript Timers complete explanation | setTimeout() | setInterval() |  📅 08/09/2021 22:27.
+> #28 🛑 JavaScript Timers complete explanation | setTimeout() | setInterval() |  📅 08/10/2021 10:34.
 
 
 
