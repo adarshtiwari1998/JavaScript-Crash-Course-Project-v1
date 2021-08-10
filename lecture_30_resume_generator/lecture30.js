@@ -106,19 +106,40 @@ let acadeQualiFieldObj = document.getElementsByClassName("acadeQualiField");  //
 let strAcaQua = "";    //li ke liye
 
 for(let acadQua of acadeQualiFieldObj ) {   //isme aik aik kar ke academic qualifications aata rahega
-
-    //then add the li on str variable
-    strAcaQua= strAcaQua + `<li> ${acadQua.value} </li>`; //isme aik aik academic qualifications li ke form me add hota rahega
+ //then add the li on str variable
+strAcaQua= strAcaQua + `<li> ${acadQua.value} </li>`; //isme aik aik academic qualifications li ke form me add hota rahega
 }
 //jab loop end hoga, iska matlab sab academic qualifications ki value aa gyi hogi
 //directly set the dynamic value into cv template of id acadeQualiTempl
 document.getElementById("acadeQualiTempl").innerHTML = strAcaQua;   
 
+//set the profile image here
+/*first fetch the image from local */
+let profileImgObj = document.getElementById("imageField").files[0];   /* single file selected, use files not file because file is the array*/
+/*agar dekhna hai too dekh sakte hai ki files me data aa rha hai ki nhi */
+console.log(profileImgObj);  //file name coming on console
+//now add the reader of the file type like, pdf, jpg, png what is supportable or what not
+//basically humko choose file se content ko read karna hai and voo aik reader ka object hi kar sakta hai
+let fileReader = new FileReader();
+//iss reader ki help se hum files data ko read karege then select karna hai
+
+fileReader.readAsDataURL(profileImgObj); //ab reader ke paas mera data aa chuka hai
+
+console.log(fileReader.result); //result se humko data mil jaayega
+
+//Next step to set the image into cv template of Id, target the src because we set the image element
+//hum yaha filereader obj ko direct set kar dia hai, hum isko onloadend pe set karege
+/* yaha fileReader image jo load kar rha hoga voo jaise hi end karega tab ye set function call hoga, and tab hama
+ra result set hoga, jab aik baar loading complete ho jaayegi, data load ho jaayega tab hum iss data ko image me set 
+karege.
+*/
+/*onloadend aik listener hai */
+fileReader.onloadend = function(){
+document.getElementById("imageTempl").src = fileReader.result;
+}
 
 //jab hum sab data fill kar diye hoge form me ab humko form hide karna hai and template show karna hai, too aisee karege
-
 document.getElementById("cv-form").style.display = "none";  //hide the cv form after we fill the data
-
 document.getElementById("cv-template").style.display="block"  //show the cv template after the data will be filled in cv form
 }
 
