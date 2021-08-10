@@ -62,7 +62,7 @@
 
 > #30 🛑 Javascript Project 3, Part(1) | Resume Generator using Javascript |  📅 08/10/2021 15:23.
 
-> #31 🛑 Javascript Project 3, Part(2) | Resume Generator using Javascript | Completing Resume Generator Project | JavaScript Stuff to Generate Resume Dynamically |  📅 08/10/2021 18:00.
+> #30 🛑 Javascript Project 3, Part(2) | Resume Generator using Javascript | Completing Resume Generator Project | JavaScript Stuff to Generate Resume Dynamically |  📅 08/10/2021 18:00.
 
 
 
