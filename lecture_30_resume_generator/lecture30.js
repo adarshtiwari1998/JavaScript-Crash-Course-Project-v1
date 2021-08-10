@@ -118,6 +118,7 @@ document.getElementById("acadeQualiTempl").innerHTML = strAcaQua;
 //jab hum sab data fill kar diye hoge form me ab humko form hide karna hai and template show karna hai, too aisee karege
 
 document.getElementById("cv-form").style.display = "none";  //hide the cv form after we fill the data
+
 document.getElementById("cv-template").style.display="block"  //show the cv template after the data will be filled in cv form
 }
 
