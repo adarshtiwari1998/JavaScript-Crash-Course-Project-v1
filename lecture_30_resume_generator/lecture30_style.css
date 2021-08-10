@@ -1,0 +1,13 @@
+#cv-form {
+    display: none !important;
+}
+
+.profile-img {
+    border: 2px solid #7979ba;
+    border-radius: 50%;
+    width: 200px
+}
+
+.background {
+    background-color: #0bccf9;
+}

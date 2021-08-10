@@ -15,7 +15,8 @@
 
 <body>
   <!------Html code goes here------>
-  <div class="container">
+  <!--CV GENERATOR FORM-->
+  <div class="container" id="cv-form">
     <h1 class="text-center my-3">Resume Generator</h1>
     <p class="text-center">Design and Develop by {Adarsh Tripathi}</p>
     <div class="row">
@@ -57,30 +58,31 @@
         <h3>Professionals Information</h3>
         <!--objective-->
         <div class="form-group mt-2"><label for="objectiveField">Objective</label>
-          <textarea id="objectiveField" rows="5" placeholder="Your Objective" class="form-control workExpField"></textarea>
+          <textarea id="objectiveField" rows="5" placeholder="Your Objective"
+            class="form-control workExpField"></textarea>
         </div>
         <!--work experience-->
         <div class="form-group mt-2" id="workExperienceEle">
           <label for="workExpField">Work Experience</label>
           <textarea placeholder="Your Work Experience" rows="3" class="form-control workExpField"></textarea>
-           <!--new text area coming here dynamically using javascript--> 
+          <!--new text area coming here dynamically using javascript-->
           <!---->
           <!---->
           <div id="workExpAddBtn" class="container mt-3 align-center justify-center text-center">
             <button onclick="addNewWorkExpFieFun()" class="btn btn-primary btn-sm">Add</button>
           </div>
         </div>
-      <!--academic qualifications-->
-      <div class="form-group mt-2" id="acadmQualificEle">
-        <label for="workExpField">Academic Qualifications</label>
-        <textarea placeholder="Your Academic Qualifications" rows="3" class="form-control acadeQualiField"></textarea>
-          <!--new text area coming here dynamically using javascript--> 
+        <!--academic qualifications-->
+        <div class="form-group mt-2" id="acadmQualificEle">
+          <label for="workExpField">Academic Qualifications</label>
+          <textarea placeholder="Your Academic Qualifications" rows="3" class="form-control acadeQualiField"></textarea>
+          <!--new text area coming here dynamically using javascript-->
           <!---->
           <!---->
-        <div id="acadeQualiAddBtn" class="container mt-3 align-center justify-center text-center">
-          <button onclick="addNewAcaQuaFieFun()"  class="btn btn-primary btn-sm">Add</button>
+          <div id="acadeQualiAddBtn" class="container mt-3 align-center justify-center text-center">
+            <button onclick="addNewAcaQuaFieFun()" class="btn btn-primary btn-sm">Add</button>
+          </div>
         </div>
-      </div>
 
       </div>
     </div>
@@ -88,6 +90,67 @@
       <button class="btn btn-secondary btn-lg-btn">Generate CV</button>
     </div>
   </div>
+  <!--CV TEMPLATE-->
+  <div class="container" id="cv-template">
+    <div class="row">
+      <!--First Column-->
+      <div class="col md-4 text-center py-5 background">
+        <img src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
+          class="img-fluid profile-img" alt="profile_image" title="profile_image">
+        <div class="container">
+          <p>Adarsh Tripathi</p>
+          <p>+91 8595432208, +9315523287</p>
+          <p>adarsh123@gmail.com</p>
+          <p>B-139, Pandav Nagar New Delhi,110092</p>
+          <hr />
+          <p><a href="#1">https://linkedin.com/adarshtiwari</a></p>
+          <p><a href="#2">https://facebook.com/adarshtiwari</a></p>
+          <p><a href="#3">https://instagram.com/adarshtiwari</a></p>
+        </div>
+      </div>
+      <!--Second Column-->
+      <div class="col-md-8 py-5">
+        <h1 class="text-center font-weight-800">Adarsh Tripathi</h1>
+        <!--objective card-->
+        <div class="card">
+          <div class="card-header background">
+            <h3>Objective</h3>
+          </div>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nemo dolorum sequi illum eaque cumque.</p>
+          </div>
+        </div>
+        <!--work experience card-->
+        <div class="card">
+          <div class="card-header background">
+            <h3>Work Experience</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, enim.</li>
+              <li>Vitae ea, in blanditiis cum fuga veniam nulla soluta corrupti!</li>
+              <li>In reiciendis velit officia earum? Velit error totam animi labore!</li>
+            </ul>
+          </div>
+        </div>
+        <!--academic qualifications card-->
+        <div class="card">
+          <div class="card-header background">
+            <h3>Academic Qualification</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, enim.</li>
+              <li>Vitae ea, in blanditiis cum fuga veniam nulla soluta corrupti!</li>
+              <li>In reiciendis velit officia earum? Velit error totam animi labore!</li>
+            </ul>
+          </div>
+        </div>
+        <div class="container mt-3 text-center"><button class="btn btn-secondary">Print CV</button></div>
+      </div>
+    </div>
+  </div>
+
   <!--boostrap js v5.1 link goes here-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
@@ -95,4 +158,5 @@
   <!--custom js link goes here-->
   <script src="lecture30.js"></script>
 </body>
+
 </html>
