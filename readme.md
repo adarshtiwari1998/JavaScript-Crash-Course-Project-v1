@@ -58,6 +58,7 @@
 
 > #28 🛑 JavaScript Timers complete explanation | setTimeout() | setInterval() |  📅 08/10/2021 10:34.
 
+> #29 🛑 JavaScript Project 2 🔥 Digital Clock using Javascript   📅 08/10/2021 12:47.
 
 
 
