@@ -64,6 +64,8 @@
 
 > #30 🛑 Javascript Project 3, Part(2) | Resume Generator using Javascript | JavaScript Stuff to Generate Resume Dynamically |  📅 08/10/2021 18:00.
 
+> #30 🛑 Javascript Project 3, Part(3) | Resume Generator using Javascript | Updating Image in Resume Generator Project Dynamically |  📅 08/10/2021 23:25.
+
 
 
 ## Tips and Tricks of GIT error on terminal
